@@ -1,0 +1,29 @@
+$ cvt 1365 768
+# 1368x768 59.88 Hz (CVT) hsync: 47.79 kHz; pclk: 85.25 MHz
+Modeline 1368x768_60.00   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+$ xrandr --newmode 1368x768_60.00   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+$ xrandr --addmode eDP1 1368x768_60.00
+$ xrandr --output HDMI1 --auto --output eDP1 --mode 1368x768_60.00 --left-of HDMI1
+$ xrandr
+Screen 0: minimum 8 x 8, current 3288 x 1080, maximum 32767 x 32767
+eDP1 connected primary 1368x768+0+0 (normal left inverted right x axis y axis) 380mm x 210mm
+   1920x1080     60.00 +  40.00  
+   1368x768      59.88  
+   1024x768_60.00  59.92  
+   1368x768_60.00  59.88* 
+HDMI1 connected 1920x1080+1368+0 (normal left inverted right x axis y axis) 600mm x 340mm
+   1920x1080     60.00*+  50.00    59.94  
+   1680x1050     59.88  
+   1600x900      60.00  
+   1280x1024     60.02  
+   1440x900      59.90  
+   1280x800      59.91  
+   1280x720      60.00    50.00    59.94  
+   1024x768      70.07    60.00  
+   800x600       72.19    60.32    56.25  
+   720x576       50.00  
+   720x480       60.00    59.94  
+   640x480       72.81    66.67    60.00    59.94  
+   720x400       70.08  
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+

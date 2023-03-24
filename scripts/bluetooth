@@ -1,0 +1,6 @@
+sudo pacman -S pulseaudio-bluetooth
+sudo pacman -S bluez bluez-utils
+sudo pacman -S pavucontrol
+systemctl enable bluetooth
+bluetoothctl
+systemctl --user enable pulseaudio
