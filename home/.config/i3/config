@@ -162,14 +162,14 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-mode "navigate" {
-	bindcode 66 exec --no-startup-id ~/.Xmodmap_handle/xmodmap_toggle.sh
-	bindsym $mod+Shift+m mode "default"
-}
+#mode "navigate" {
+#	bindcode 66 exec --no-startup-id ~/.Xmodmap_handle/xmodmap_toggle.sh
+#	bindsym $mod+Shift+m mode "default"
+#}
 
 bindsym $mod+r mode "resize"
-bindsym $mod+Shift+m mode "navigate"
-bindcode 66 exec --no-startup-id ~/.Xmodmap_handle/xmodmap_toggle.sh
+#bindsym $mod+Shift+m mode "navigate"
+#bindcode 66 exec --no-startup-id ~/.Xmodmap_handle/xmodmap_toggle.sh
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -183,6 +183,7 @@ bindsym $mod+Shift+o exec libreoffice
 bindsym $mod+Shift+g exec geogebra
 bindsym $mod+Shift+p exec eclipse
 bindsym $mod+Shift+b exec bluetoothctl connect D5:C7:A6:E4:8D:39
+bindsym $mod+Shift+v exec virtualboxvm --startvm WinX
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
