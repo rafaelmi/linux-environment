@@ -1,3 +1,14 @@
+keycode  24 = 7 bracketleft 7 currency NoSymbol currency
+keycode  25 = 5 braceleft 5 cent NoSymbol cent
+keycode  26 = 3 braceright 3 yen NoSymbol yen
+keycode  27 = 1 parenleft 1 EuroSign NoSymbol EuroSign
+keycode  28 = 9 equal 9 sterling NoSymbol sterling
+keycode  29 = 0 asterisk 0
+keycode  30 = 2 parenright 2 onehalf NoSymbol onehalf
+keycode  31 = 4 plus 4
+keycode  32 = 6 bracketright 6
+keycode  33 = 8 exclam 8 exclamdown U2E18 exclamdown
+keycode  34 = numbersign grave numbersign grave dead_grave NoSymbol dead_grave
 keycode  38 = Home
 keycode  39 = Left
 keycode  40 = Left

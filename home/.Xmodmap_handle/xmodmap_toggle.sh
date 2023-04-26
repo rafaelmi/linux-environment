@@ -3,7 +3,7 @@ cd "$(dirname "$0")"
 
 if [[ -n $(xmodmap -pke | grep 'keycode  38 = Home') ]]
 then 
-	xmodmap xmodmap_default
+	xmodmap ~/.Xmodmap
 else
 	xmodmap xmodmap_navigate
 fi
