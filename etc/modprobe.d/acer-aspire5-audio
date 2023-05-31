@@ -1,2 +1,3 @@
 options snd_hda_intel dmic_detect=0
-options snd-hda-intel model=aspire-headset-mic
+options snd-hda-intel model=alc255-acer
+
